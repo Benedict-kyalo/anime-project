@@ -1,0 +1,64 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animation-wrapper {
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 40px;
+    color: #333;
+}
+
+
+.stage {
+    display: flex;
+    justify-content: center;
+    gap: 15px; 
+    margin-bottom: 50px;
+}
+
+
+.square {
+    width: 80px;   
+    height: 80px;
+}
+
+.red {
+    background-color: #FF0000;
+}
+
+.blue {
+    background-color: #0000FF;
+}
+
+.green {
+    background-color: #008000;
+}
+
+.yellow {
+    background-color: #FFFF00;
+}
+
+button {
+    padding: 10px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
